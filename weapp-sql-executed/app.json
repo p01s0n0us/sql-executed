@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/detail/detail",
+    "pages/profile/profile",
+    "pages/record/record"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "SQL练习",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#f8f9fb"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#444",
+    "backgroundColor": "#fff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "题目",
+        "iconPath": "pics/home.png",
+        "selectedIconPath": "pics/home-active.png"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "我的",
+        "iconPath": "pics/profile.png",
+        "selectedIconPath": "pics/profile-active.png"
+      }
+    ],
+    "position": "bottom"
+  },
+  "sitemapLocation": "sitemap.json"
+}

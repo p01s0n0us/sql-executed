@@ -1,0 +1,17 @@
+<view wx:if="{{!hasUserInfo}}">
+  <view class="container">
+    <view class="userinfo">
+      <van-button open-type="getUserInfo" bind:getuserinfo="getUserInfo" type="primary">登陆</van-button>
+    </view>
+  </view>
+</view>
+<view wx:else>
+  <view class="container">
+    <view class="userinfo">
+      <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </view>
+  </view>
+  <!-- <van-cell icon="setting" bind:click="profile" title="我的资料" size="large" is-link /> -->
+  <van-cell icon="todo-list" url="/pages/record/record" link-type="navigateTo" title="提交记录" size="large" is-link />
+</view>

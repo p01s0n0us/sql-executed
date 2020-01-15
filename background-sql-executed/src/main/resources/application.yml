@@ -1,0 +1,16 @@
+server:
+  port: 35635
+
+spring:
+  jackson:
+    property-naming-strategy: SNAKE_CASE
+  jpa:
+    database: mysql
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5Dialect
+  profiles:
+    active: dev

@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="19b502b8-009b-4941-980f-2b87fa9a21e3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xiaobai/sql/annotation/Token.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xiaobai/sql/config/InterceptorConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xiaobai/sql/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xiaobai/sql/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xiaobai/sql/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xiaobai/sql/interceptor/TokenHandlerInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiaobai/sql/aop/ParameterLogAOP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiaobai/sql/aop/ParameterLogAOP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiaobai/sql/config/DataSourceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiaobai/sql/config/DataSourceConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiaobai/sql/controller/OpenIdController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiaobai/sql/controller/OpenIdController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiaobai/sql/controller/QuestionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiaobai/sql/controller/QuestionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiaobai/sql/controller/RecordController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiaobai/sql/controller/RecordController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiaobai/sql/controller/ValidateController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiaobai/sql/controller/ValidateController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiaobai/sql/enums/SQLType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiaobai/sql/enums/SQLType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiaobai/sql/enums/TableRegex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiaobai/sql/enums/TableRegex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiaobai/sql/model/entity/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiaobai/sql/model/entity/Question.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiaobai/sql/model/entity/ResultDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiaobai/sql/model/entity/ResultDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiaobai/sql/validate/AbstractValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiaobai/sql/validate/AbstractValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiaobai/sql/validate/QueryValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiaobai/sql/validate/QueryValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiaobai/sql/validate/UpdateValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiaobai/sql/validate/UpdateValidator.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="sql_executed@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="sql_executed@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="sql_executed@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="sql_executed: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="sql_executed@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="sql_executed: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="t_question: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="sql_executed@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="sql_executed: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="t_record: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\MavenRepository" />
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+        <option name="userSettingsFile" value="G:\Program Files\JetBrains\IntelliJ IDEA 2019.2.2\plugins\maven\lib\maven3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1RBtnwCrFJzl1gNHsklWlJtymZZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="JPA.DatabaseSchemaImportDialog" value="cf68cec1-a45b-4931-a384-e084166d3a9d" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.3599585" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.statistic.project.settings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\IdeaProjects\sql-executed\src\main\java\com\xiaobai" />
+      <recent name="E:\IdeaProjects\sql-executed\src\main\resources" />
+    </key>
+    <key name="ImportMappingsDialog.RecentPackages">
+      <recent name="com.xiaobai.entity" />
+      <recent name="com.xiaobai" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IdeaProjects\sql-executed\src\main\java\com\xiaobai\sql\config" />
+      <recent name="E:\IdeaProjects\sql-executed\src\main\java\com\xiaobai\sql\exec\select_update" />
+      <recent name="E:\IdeaProjects\sql-executed\src\main\java\com\xiaobai\sql\primary" />
+      <recent name="E:\IdeaProjects\sql-executed\src\main\java\com\xiaobai\sql" />
+      <recent name="E:\IdeaProjects\sql-executed\src\main\java\com\xiaobai\sql\deleteinsert" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.xiaobai.sql.controller" />
+      <recent name="com.xiaobai.sql.annotation" />
+      <recent name="com.xiaobai.sql.interceptor" />
+      <recent name="com.xiaobai.sql.validate" />
+      <recent name="com.xiaobai.sql.exec.select_update.service.impl" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.xiaobai.sql.service" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Application">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application#2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/Application.http" index="2">
+      <method v="2" />
+    </configuration>
+    <configuration name="JDBCTest.jdbctest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sql-executed" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xiaobai.jdbctemplate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xiaobai.jdbctemplate" />
+      <option name="MAIN_CLASS_NAME" value="com.xiaobai.jdbctemplate.JDBCTest" />
+      <option name="METHOD_NAME" value="jdbctest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegexTest.table" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sql-executed" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xiaobai.jdbctemplate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xiaobai.jdbctemplate" />
+      <option name="MAIN_CLASS_NAME" value="com.xiaobai.jdbctemplate.RegexTest" />
+      <option name="METHOD_NAME" value="table" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestUpdate.testMax" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sql-executed" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xiaobai.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xiaobai" />
+      <option name="MAIN_CLASS_NAME" value="com.xiaobai.TestUpdate" />
+      <option name="METHOD_NAME" value="testMax" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="sql-executed" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xiaobai.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xiaobai.Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="HTTP Request.Application#2" />
+      <item itemvalue="JUnit.TestUpdate.testMax" />
+      <item itemvalue="JUnit.JDBCTest.jdbctest" />
+      <item itemvalue="JUnit.RegexTest.table" />
+      <item itemvalue="Spring Boot.Application" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.Application" />
+        <item itemvalue="JUnit.RegexTest.table" />
+        <item itemvalue="JUnit.JDBCTest.jdbctest" />
+        <item itemvalue="HTTP Request.Application#2" />
+        <item itemvalue="JUnit.TestUpdate.testMax" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand />
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
+  </component>
+  <component name="SpringBootOptions">
+    <option name="showAdditionalConfigNotification" value="false" />
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",SHOW_PROPERTIES,SHOW_INTERFACES,ALPHA_COMPARATOR" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="19b502b8-009b-4941-980f-2b87fa9a21e3" name="Default Changelist" comment="" />
+      <created>1569152487359</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1569152487359</updated>
+      <workItem from="1569152490446" duration="2843000" />
+      <workItem from="1569206321610" duration="18394000" />
+      <workItem from="1569313342182" duration="14243000" />
+      <workItem from="1569372459337" duration="10706000" />
+      <workItem from="1569419268761" duration="4175000" />
+      <workItem from="1569423473296" duration="2968000" />
+      <workItem from="1569458925469" duration="2686000" />
+      <workItem from="1569561646140" duration="22912000" />
+      <workItem from="1569635226296" duration="3960000" />
+      <workItem from="1569732105645" duration="12478000" />
+      <workItem from="1569752910385" duration="1111000" />
+      <workItem from="1570091888790" duration="4692000" />
+      <workItem from="1570789315549" duration="4174000" />
+      <workItem from="1570847237463" duration="9260000" />
+      <workItem from="1570969838874" duration="17000" />
+      <workItem from="1571052120140" duration="12218000" />
+      <workItem from="1571101729690" duration="18228000" />
+      <workItem from="1571187942376" duration="14508000" />
+      <workItem from="1571317139850" duration="1243000" />
+      <workItem from="1573607322272" duration="10994000" />
+      <workItem from="1574315513970" duration="26442000" />
+      <workItem from="1574389089356" duration="11501000" />
+      <workItem from="1574406075406" duration="3503000" />
+      <workItem from="1574433315318" duration="5247000" />
+      <workItem from="1574475712574" duration="652000" />
+      <workItem from="1574578336551" duration="2323000" />
+      <workItem from="1574820170815" duration="1059000" />
+      <workItem from="1574828549653" duration="50000" />
+      <workItem from="1576206298477" duration="743000" />
+      <workItem from="1576207061396" duration="2411000" />
+      <workItem from="1576291326680" duration="1248000" />
+    </task>
+    <task id="LOCAL-00001" summary="2019-12-13">
+      <created>1576208326005</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1576208326005</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/sql-executed" />
+    </ignored-roots>
+    <MESSAGE value="2019-12-13" />
+    <option name="LAST_COMMIT_MESSAGE" value="2019-12-13" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/zaxxer/HikariCP/3.2.0/HikariCP-3.2.0-sources.jar!/com/zaxxer/hikari/HikariConfig.java</url>
+          <line>1060</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="objects[1]" language="JAVA" />
+        <watch expression="objects" />
+        <watch expression="key.equals(&quot;oLVC55a-38VrX_IKw2Vi_K4veQ0U1&quot;)" language="JAVA" />
+        <watch expression="System.currentTimeMillis()" language="JAVA" />
+        <watch expression="System.nanoTime()" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/sqlexecuted$JDBCTransaction.ic" NAME="JDBCTransaction Coverage Results" MODIFIED="1569406306055" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.xiaobai.jdbc.*</FILTER>
+    </SUITE>
+  </component>
+</project>

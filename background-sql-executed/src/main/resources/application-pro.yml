@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    primary:
+      jdbc-url: jdbc:mysql://47.112.27.55:3306/sql_executed?useSSL=false&useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+      username: test
+      password: X9xky?8lxEK!
+      driver-class-name: com.mysql.cj.jdbc.Driver
+    select-update:
+      jdbc-url: jdbc:mysql://47.112.27.55:3306/select_update?useSSL=false&useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+      username: test
+      password: X9xky?8lxEK!
+      driver-class-name: com.mysql.cj.jdbc.Driver
+    delete-insert:
+      jdbc-url: jdbc:mysql://47.112.27.55:3306/delete_insert?useSSL=false&useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+      username: test
+      password: X9xky?8lxEK!
+      driver-class-name: com.mysql.cj.jdbc.Driver

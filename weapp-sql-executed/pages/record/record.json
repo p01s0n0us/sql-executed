@@ -1,0 +1,16 @@
+{
+  "usingComponents": {
+    "van-cell": "../../vant-weapp/cell/index",
+    "van-cell-group": "../../vant-weapp/cell-group/index",
+    "van-tag": "../../vant-weapp/tag/index",
+    "van-icon": "../../vant-weapp/icon/index",
+    "van-grid": "../../vant-weapp/grid/index",
+    "van-grid-item": "../../vant-weapp/grid-item/index",
+    "van-row": "../../vant-weapp/row/index",
+    "van-col": "../../vant-weapp/col/index",
+    "van-notice-bar": "../../vant-weapp/notice-bar/index"
+  },
+  "enablePullDownRefresh": true,
+  "onReachBottomDistance": 5,
+  "navigationBarTitleText": "提交记录"
+}

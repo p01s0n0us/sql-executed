@@ -1,0 +1,22 @@
+<van-cell wx:for="{{recordItem}}" wx:key="key" label="{{item.submit_sql}}" size="large">
+  <view slot="title">
+    <van-row gutter="5">
+      <van-col>
+        <van-tag size="medium">题目: {{item.qid}}</van-tag>
+      </van-col>
+      <van-col>
+        <van-tag wx:if="{{item.status==2}}" type="success" size="medium">正确</van-tag>
+        <van-tag wx:elif="{{item.status==1}}" type="danger" size="medium">错误</van-tag>
+      </van-col>
+      <van-col>
+        <van-tag type="success" size="medium">耗时: {{item.time}}</van-tag>
+      </van-col>
+    </van-row>
+    <view class="van-cell-text">提交时间: {{item.create_time}}</view>
+  </view>
+  <van-icon wx:if="{{item.status==2}}" slot="icon" name="passed" color="green" size="25px" />
+  <van-icon wx:elif="{{item.status==1}}" slot="icon" name="close" color="red" size="25px" />
+</van-cell>
+
+<view wx:if="{{hasMore}}" class="loadmore loading">正在加载...</view>
+<view wx:else class="loadmore">没有更多内容了</view>

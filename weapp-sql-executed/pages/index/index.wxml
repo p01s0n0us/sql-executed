@@ -1,0 +1,28 @@
+<van-cell wx:for="{{questionItem}}" wx:key="key" label="{{item.content}}" size="large" link-type="navigateTo" url="/pages/detail/detail?id={{item.id}}" is-link>
+  <view slot="title">
+    <view class="van-cell-text">{{item.id}} - {{item.type}}</view>
+    <view>
+      <van-row gutter="5">
+        <van-col>
+          <van-tag wx:if="{{item.status==2}}" type="success" size="medium">正确</van-tag>
+          <van-tag wx:elif="{{item.status==1}}" type="danger" size="medium">错误</van-tag>
+          <van-tag wx:else size="medium">未作</van-tag>
+          <!-- <van-tag wx:else type="{{item.status==1?'danger':'success' }}" size="medium">{{item.status == 1?"错误":"正确" }}</van-tag> -->
+        </van-col>
+        <van-col>
+          <van-tag wx:if="{{item.hard<=2}}" type="success" size="medium">难度: {{item.hard}}</van-tag>
+          <van-tag wx:elif="{{item.hard<=4}}" type="warning" size="medium">难度: {{item.hard}}</van-tag>
+          <van-tag wx:else type="danger" size="medium">难度: {{item.hard}}</van-tag>
+          <!-- <van-tag type="{{item.hard<=2?'success': item.hard<=4?'warning':'danger'}}" size="medium">难度: {{item.hard}}</van-tag> -->
+        </van-col>
+      </van-row>
+    </view>
+  </view>
+  <van-icon wx:if="{{item.status==2}}" slot="icon" name="passed" color="green" size="25px" />
+  <van-icon wx:elif="{{item.status==1}}" slot="icon" name="close" color="red" size="25px" />
+  <van-icon wx:else slot="icon" name="question-o" color="gray" size="25px" />
+  <!-- <van-icon slot="icon" name="{{item.status==0?'question-o':item.status==1?'close':'passed'}}" class="custom-icon" size="25px" color="{{item.status==0?'gray':item.status==1?'red':'green'}}" /> -->
+</van-cell>
+
+<view wx:if="{{hasMore}}" class="loadmore loading">正在加载...</view>
+<view wx:else class="loadmore">没有更多内容了</view>

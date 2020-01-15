@@ -1,0 +1,22 @@
+<van-cell-group title="数据库定义">
+  <van-notice-bar wrapable scrollable="false" text="CREATE TABLE course (CourseId int(11), Name varchar(10), TeacherId int(11))" />
+  <van-notice-bar wrapable scrollable="false" text="CREATE TABLE score (StudentId int(11), CourseId int(11), Score int(11))" />
+  <van-notice-bar wrapable scrollable="false" text="CREATE TABLE student (StudentId int(11), Name varchar(10), Age date, Sex varchar(10))" />
+  <van-notice-bar wrapable scrollable="false" text="CREATE TABLE teacher (TeacherId int(11), Name varchar(10))" />
+</van-cell-group>
+
+<van-cell-group title="题目">
+  <van-cell title='{{question.content}}' />
+</van-cell-group>
+
+<form bindsubmit="submit">
+  <van-cell-group title="作答">
+    <van-cell-group>
+      <van-field type="textarea" placeholder="# Write your MySQL query statement here" name="sql" autosize/>
+    </van-cell-group>
+  </van-cell-group>
+
+  <view class="container">
+    <button class="button" form-type="submit" size="large">提交</button>
+  </view>
+</form>
